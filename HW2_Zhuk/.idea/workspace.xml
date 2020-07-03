@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="252ad4e8-2123-4e41-b402-36dc0b103397" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZzhA4d2TIO2N42Oit6jvNWzHrj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Main_additional">
+    <configuration name="Circle (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Circle" />
+      <module name="HW2_Zhuk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.lang.Circle" />
+      <module name="HW2_Zhuk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.lang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HW2_Zhuk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_additional" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main_additional" />
+      <module name="HW2_Zhuk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Volume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Volume" />
+      <module name="HW2_Zhuk" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Volume" />
+        <item itemvalue="Application.Circle (1)" />
+        <item itemvalue="Application.Circle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="252ad4e8-2123-4e41-b402-36dc0b103397" name="Default Changelist" comment="" />
+      <created>1585847683393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585847683393</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585847720775">
+      <screen x="0" y="23" width="1440" height="786" />
+    </state>
+    <state x="432" y="226" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.786@0.23.1440.786" timestamp="1585847720775" />
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom" timestamp="1585854144273">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585854144273" />
+    <state width="1398" height="187" key="GridCell.Tab.0.bottom/0.23.1440.786@0.23.1440.786" timestamp="1585850981268" />
+    <state width="1398" height="229" key="GridCell.Tab.0.center" timestamp="1585854144272">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585854144272" />
+    <state width="1398" height="187" key="GridCell.Tab.0.center/0.23.1440.786@0.23.1440.786" timestamp="1585850981267" />
+    <state width="1398" height="229" key="GridCell.Tab.0.left" timestamp="1585854144272">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585854144272" />
+    <state width="1398" height="187" key="GridCell.Tab.0.left/0.23.1440.786@0.23.1440.786" timestamp="1585850981267" />
+    <state width="1398" height="229" key="GridCell.Tab.0.right" timestamp="1585854144273">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585854144273" />
+    <state width="1398" height="187" key="GridCell.Tab.0.right/0.23.1440.786@0.23.1440.786" timestamp="1585850981268" />
+    <state x="378" y="85" width="683" height="729" key="find.popup" timestamp="1585854079785">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="85" width="683" height="729" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585854079785" />
+  </component>
+</project>
