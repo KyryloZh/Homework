@@ -49,7 +49,7 @@ public class Main {
             try {
                 throw new Exception("There are no items from the mentioned store.");
             } catch (Exception e) {
-                e.printStackTrace();
+                System.out.println(e.getMessage());
             }
 
 

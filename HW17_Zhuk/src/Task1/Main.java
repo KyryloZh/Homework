@@ -25,14 +25,16 @@ public class Main {
                 hiringYear = sc.nextInt();
                 try {
                     if (hiringYear < 1900) {
-                        System.out.println("It can't be that long ago.");
+                        ;
                         throw new Exception("It can't be that long ago.");
                     } else if (hiringYear > 2020) {
-                        System.out.println("This year hasn't started yet!");
+
                         throw new Exception("This year hasn't started yet!");
                     }
                 }
-                catch (Exception e){ j--;}
+                catch (Exception e){
+                    System.out.println(e.getMessage());
+                    j--;}
             }
             Worker worker = new Worker (name, position, hiringYear);
             workers.add(worker);
