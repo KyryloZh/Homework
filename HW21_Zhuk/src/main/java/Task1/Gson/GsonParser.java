@@ -1,4 +1,4 @@
-package Task1;
+package Task1.Gson;
 
 import com.google.gson.*;
 import com.google.gson.stream.JsonReader;

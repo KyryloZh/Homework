@@ -1,4 +1,6 @@
-package Task1;
+package Task1.Gson;
+
+import Task1.Gson.GsonParser;
 
 import java.io.IOException;
 

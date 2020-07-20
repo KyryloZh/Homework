@@ -1,4 +1,4 @@
-package Task1;
+package Task1.Gson;
 
 import com.google.gson.annotations.SerializedName;
 import java.math.BigDecimal;
