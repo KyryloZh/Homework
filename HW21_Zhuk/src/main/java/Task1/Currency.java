@@ -48,7 +48,7 @@ public class Currency {
 
         @Override
         public String toString(){
-            return "Code: " + digitalCode + "| Currency: " + currencyName + "(" + shortName + ") | Rate: " + rate
+            return "Code: " + digitalCode + " | Currency: " + currencyName + "(" + shortName + ") | Rate: " + rate
                     + " UAH | Exchange date: " + exchangeDate;
         }
 

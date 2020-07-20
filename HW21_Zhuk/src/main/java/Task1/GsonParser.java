@@ -27,7 +27,7 @@ public class GsonParser {
 
         String gsonString = gson.toJson(currencies);
 
-        Files.write(Paths.get("/Users/kyrylozhuk/IdeaProjects/HW21_Zhuk/src/main/resources/CurrencyListIn.json"),
+        Files.write(Paths.get("/Users/kyrylozhuk/IdeaProjects/HW21_Zhuk/src/main/resources/GsonCurrencyListIn.json"),
                 gsonString.getBytes(), StandardOpenOption.CREATE);
     }
 }
