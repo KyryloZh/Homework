@@ -1,9 +1,11 @@
 + Створити класи: Time, Movie, Seance, Schedule, Cinema.
 + В enum Days: - прописати дні тижня;
- В Time: поля int min, int hour; - передбачити межі для їх значень (для min 0..59, для hour 0..23);
-В Movie: поля String title, Time duration;
-Seance: поля Movie movie, Time startTime, Time endTime; - в конструктор має надходити параметрами значення для перших двох полів,
+ В Time: поля int min, int hour; - ????передбачити межі для їх значень (для min 0..59, для hour 0..23);
++ В Movie: поля String title, Time duration;
+Seance: поля Movie movie, Time startTime, Time endTime; - ?????в конструктор має надходити параметрами значення для перших двох полів,
  третє поле повинне обчислюватись (startTime + movie.duration);
+
+
 В Schedule: поле TreeSet <Seance> (тип Set <Seance>, конструктор = new TreeSet <Seance>() );
 - методи: addSeance (Seance s), removeSeance (Seance s);
 Cinema: поля TreeMap<Days, Schedule> schedules, Time open, Time close;
