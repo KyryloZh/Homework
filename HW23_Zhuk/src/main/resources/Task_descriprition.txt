@@ -6,7 +6,7 @@ Seance: поля Movie movie, Time startTime, Time endTime; - ?????в конст
  третє поле повинне обчислюватись (startTime + movie.duration);
 
 
-В Schedule: поле TreeSet <Seance> (тип Set <Seance>, конструктор = new TreeSet <Seance>() );
++ В Schedule: поле TreeSet <Seance> (тип Set <Seance>, конструктор = new TreeSet <Seance>() );
 - методи: addSeance (Seance s), removeSeance (Seance s);
 Cinema: поля TreeMap<Days, Schedule> schedules, Time open, Time close;
 - врахувати час відкриття і закриття при формуванні сеансів!

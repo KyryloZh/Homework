@@ -4,6 +4,6 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class Schedule {
-//    private Set <Seance> = TreeSet<Seance>;
+    private Set<Seance> seances = new TreeSet<Seance>();
 
 }
