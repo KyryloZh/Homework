@@ -1,1 +1,3 @@
-https://*.doubleclick.net/
+200~doubleclick.net
+googleadservices.com
+googlesyndication.com
