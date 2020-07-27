@@ -6,4 +6,8 @@ import java.util.TreeSet;
 public class Schedule {
     private Set<Seance> seances = new TreeSet<Seance>();
 
+    public void addSeance (Seance s){
+
+    }
+
 }
