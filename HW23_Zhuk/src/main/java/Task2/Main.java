@@ -33,24 +33,31 @@ public class Main {
                     String type = sc.next();
                     System.out.print("Name of the pet as well, please: ");
                     String name = sc.next();
-                    System.out.print("Whose pet is it?Please enter owner's name:" );
+                    System.out.print("Whose pet is it?Please enter owner's name: " );
                     String ownersName = sc.next();
                     zooClub.addAnimal(type, name, ownersName);
-
+                    //not finished, we need normal output for the animals list
                     break;
                 }
                 case 3: {
-                    //not a duplicate branch
+                    System.out.print("Please enter the name of the pet you need deleted: ");
+                    String petName = sc.next();
+                    System.out.print("Whose pet is it?");
+                    String ownerName = sc.next();
+                    zooClub.removeAnimalFromTheOwner(petName, ownerName);
                     break;
                 }
                 case 4: {
                     System.out.print("Who do you want to delete? Please enter a name. ");
                     String name = sc.next();
                     zooClub.removePerson(name);
-                    System.out.println(name + " and his pet were deleted from the club list.");
+                    System.out.println(name + " and his pet(s) were deleted from the club list.");
+                    break;
                 }
                 case 5: {
-
+                    System.out.print("Please enter the name of the pet you need deleted: ");
+                    String name = sc.next();
+                    zooClub.removeAnimalEveryehwere(name);
                     break;
                 }
                 case 6: {
@@ -58,12 +65,11 @@ public class Main {
                     break;
                 }
                 case 7: {
-                    System.out.println("Bye!");
+                    System.out.println("Thanks for visiting our club. Bye!");
                     break inputloop;
                 }
                 default: {
                     System.out.println("Please pick an option from the offered ones.");
-
                     break;
 
                 }

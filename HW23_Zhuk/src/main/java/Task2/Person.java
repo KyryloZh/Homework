@@ -19,7 +19,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Name = " + name + '\n' +
-                "Age=" + age;
+        return "Name: " + name + " (Age: " + age + ")";
     }
 }
