@@ -17,9 +17,9 @@ public class ZooClub {
         for (Map.Entry<Person, List<Animal>> entry: map.entrySet()) {
             if (entry.getKey().getName().equalsIgnoreCase(name)){
                 map.remove(entry);
-                System.out.println(name + " is now excluded from the club.");
+                System.out.println(name + " is now excluded from the club."  + '\n');
             } else {
-                System.out.println("I don't see any club members named " + name);
+                System.out.println("I don't see any club members named " + name  + '\n');
             }
         }
 
@@ -39,42 +39,42 @@ public class ZooClub {
 
     }
 
-    public void removeAnimalEveryehwere (String name){
+    public void removeAnimalEveryehwere (String name, String type){
       for(Map.Entry<Person, List<Animal>> entry : map.entrySet()){
           int counter = 0;
           List<Animal> temp = entry.getValue();
           for (Animal animal : temp) {
-              if (animal.hasInside(name, animal.getType())){
+              if (animal.hasInside(name, type)){
                   temp.remove(animal);
               }
               else { counter++; }
           }
           if (counter == map.size()) {
-              System.out.println("There are no pets named " + name + " in our club.");
+              System.out.println("There are no pets named " + name + " in our club."  + '\n');
           } else {
               entry.setValue(temp);
-              System.out.println(name + " has been deleted from all records.");
+              System.out.println(name + " has been deleted from all records."  + '\n');
           }
       }
     }
 
-    public void removeAnimalFromTheOwner (String petName, String ownerName){
+    public void removeAnimalFromTheOwner (String petName, String petType, String ownerName){
         int counter = 0;
         for(Map.Entry<Person, List<Animal>> entry : map.entrySet()){
             if (entry.getKey().getName().equalsIgnoreCase(ownerName)){
                 List<Animal> temp = entry.getValue();
                 for(Animal animal : temp){
-                    if (animal.hasInside(petName, animal.getType())){
+                    if (animal.hasInside(petName, petType)){
                         temp.remove(animal);
                     }
                     else { counter++; }
                 }
                 if (counter == temp.size()){
-                    System.out.println("We haven't found a pet named " + petName + " being owned by " + ownerName);
+                    System.out.println("We haven't found a pet named " + petName + " being owned by " + ownerName  + '\n');
                 }
                 else {
                     entry.setValue(temp);
-                    System.out.println(petName + "is now deleted from " + ownerName + "'s record");
+                    System.out.println(petName + "is now deleted from " + ownerName + "'s record" + '\n');
                 }
 
             }
@@ -84,11 +84,13 @@ public class ZooClub {
 
 
     public void ShowAll() {
+        System.out.println("Our club members are:" + '\n');
         for(Map.Entry<Person, List<Animal>> pair : map.entrySet()){
             if (pair.getValue() == null) {
-                System.out.println("Our club members are:" + '\n' + "Owner: " + pair.getKey() + "\n" + "No animal records.");
-            } else if(map.size() == 0){ System.out.println("Your club is empty for now."); }
-            else { System.out.println("Our club members are:" + '\n' + "Owner: " + pair.getKey() + "\n" + "Pet: " + pair.getValue()); }
+                System.out.println("Owner: " + "\n" + pair.getKey() + "\n" + "No animal records."  + '\n');
+            } else if(map.size() == 0){ System.out.println("Your club is empty for now."  + '\n'); }
+            else { System.out.println("Owner: " + pair.getKey() + "\n" + "Pet: " + pair.getValue()) ; }
         }
+        System.out.println('\n');
     }
 }
