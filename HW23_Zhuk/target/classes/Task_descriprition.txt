@@ -1,6 +1,8 @@
 + Створити класи: Time, Movie, Seance, Schedule, Cinema.
 + В enum Days: - прописати дні тижня;
  В Time: поля int min, int hour; - ????передбачити межі для їх значень (для min 0..59, для hour 0..23) - через ИФ в конструкторе;
+ отдельный метод с вызовом в конструкторе
+
 + В Movie: поля String title, Time duration;
 Seance: поля Movie movie, Time startTime, Time endTime; - ?????в конструктор має надходити параметрами значення для перших двох полів,
  третє поле повинне обчислюватись (startTime + movie.duration);
@@ -37,7 +39,5 @@ Map<Person, List<Animal>> map;
  Вийти з програми (как один из пунктов меню)
 Використати для побудови меню Switch.
 
-//нормальный вывод текста для листа внутри мапы
-//переопределени е иквалс вместо создания своего метода
-//правильность добавления животного в список
-//input mismatch exception
+
+animal duplicates for the owner

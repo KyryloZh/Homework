@@ -1,5 +1,7 @@
 package Task2;
 
+import java.util.Objects;
+
 public class Animal {
     private String type;
     private String name;
@@ -23,7 +25,8 @@ public class Animal {
 
     public boolean hasInside(String name, String type){
         boolean temp = false;
-        if (this.name.equalsIgnoreCase(name)){ if (this.type.equalsIgnoreCase(type))  temp = true; }
+        if (this.name.equalsIgnoreCase(name))
+        { if (this.type.equalsIgnoreCase(type))  temp = true; }
         else temp = false;
         return temp;
     }
