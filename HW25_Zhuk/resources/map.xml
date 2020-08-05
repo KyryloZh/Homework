@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><maps>
+<map>
+    <city size="Big">Kyiv</city>
+    <street>Da</street>
+    <house>1</house>
+</map>
+<map>
+    <city size="Big">Odessa</city>
+    <street>Deribasivska</street>
+    <house>7</house>
+</map>
+<map><city size="Big">Maruipol</city><street>Metalurgiv</street><house>12</house></map></maps>
